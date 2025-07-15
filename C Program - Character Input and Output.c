@@ -5,7 +5,7 @@ int main(void)
     printf("Enter student grade: ");
     grade = getchar();
     printf("You entered: ");
-    putchar(grade);
+    putchar(grade);1
     printf("\n");
 
     return 0;
