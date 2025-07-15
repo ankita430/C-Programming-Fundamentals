@@ -54,4 +54,3 @@ Each file demonstrates a fundamental concept in C — ideal for freshers, studen
    ```bash
    gcc filename.c -o output
    ./output
-# C-Programming-Fundamentals
