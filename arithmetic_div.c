@@ -6,7 +6,7 @@ int main()
     printf("Enter any two numbers: ");
     scanf("%d%d", &num1, &num2);
 
-    div  = (float)num1 / num2;   // Typecast to float for decimal division
+    div  = (float)num1 / num2;   
     
     printf("QUOTIENT = %.2f\n", div);
    
