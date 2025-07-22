@@ -1,14 +1,16 @@
+#include <stdio.h>
+
 int main()
 {
-    int num1, num2;            
-    int mod;   
+    int a, b;
+    int rem;
     
-    printf("Enter any two numbers: ");
-    scanf("%d%d", &num1, &num2);
-
-    mod  = num1 % num2;
-
-    printf("MODULUS = %d\n", mod);
-
+    printf("a, b: ");
+    scanf("%d%d", &a, &b);
+    
+    rem = a % b;
+    printf("rem = %d\n", rem);
+    
     return 0;
 }
+
