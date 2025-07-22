@@ -1,17 +1,14 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 {
-    int num1, num2;
-    int sub;
+    int a, b, diff;
     
-  printf("Enter any two numbers: ");
-    scanf("%d%d", &num1, &num2);
-
-    sub  = num1 - num2;
-    printf("DIFFERENCE = %d\n", sub);
-
+    printf("a, b: ");
+    scanf("%d%d", &a, &b);
+    
+    diff = a - b;
+    printf("diff = %d\n", diff);
+    
     return 0;
 }
-
-
