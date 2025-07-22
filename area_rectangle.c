@@ -1,18 +1,14 @@
 #include <stdio.h>
 
-int main()
+int main() 
 {
-    float length, width, area;  
-
-    printf("Enter length of rectangle: ");
-    scanf("%f", &length);
-
-    printf("Enter width of rectangle: ");
-    scanf("%f", &width);  
-
-    area = length * width;
-
-    printf("Area of rectangle = %.2f sq. units\n", area);
-
+    float l, w, a;
+    printf("l, w: ");
+    scanf("%f%f", &l, &w);
+    
+    a = l * w;
+    printf("a = %.2f\n", a);
+    
     return 0;
 }
+
