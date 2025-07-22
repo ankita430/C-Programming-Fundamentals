@@ -1,14 +1,15 @@
+#include <stdio.h>
+
 int main()
 {
-    int num1, num2;            
-    float div;               
-
-    printf("Enter any two numbers: ");
-    scanf("%d%d", &num1, &num2);
-
-    div  = (float)num1 / num2;   
+    int a, b;
+    float quot;
     
-    printf("QUOTIENT = %.2f\n", div);
-   
+    printf("a, b: ");
+    scanf("%d%d", &a, &b);
+    
+    quot = (float)a / b;
+    printf("quot %.2f\n", quot);
+    
     return 0;
 }
