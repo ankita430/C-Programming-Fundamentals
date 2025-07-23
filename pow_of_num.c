@@ -13,6 +13,24 @@ int main()
     
     return 0;
 }
+-----*-----
+
+#include <stdio.h>
+int main()
+{
+    int num = 2;
+    int power = 3;
+    int result = 1;
+    
+    for (int i = 1; i <= power; i++)
+    {
+        result = result * num;
+    }
+    
+    printf("%d", result);
+    
+    return 0;
+}
 
 
 
