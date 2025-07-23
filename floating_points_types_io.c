@@ -2,22 +2,24 @@
 
 int main()
 {
-    float floatVal;
-    double doubleVal;
-    long double longDoubleVal;
+    float a;
+    double b;
+    long double c;
 
-    printf("Enter a float: ");
-    scanf("%f", &floatVal);
+    printf("float: ");
+    scanf("%f", &a);
 
-    printf("Enter a double: ");
-    scanf("%lf", &doubleVal);
+    printf("double: ");
+    scanf("%lf", &b);
 
-    printf("Enter a long double: ");
-    scanf("%Lf", &longDoubleVal);
+    printf("long double: ");
+    scanf(" %Lf", &c); 
 
-     printf("You entered float: %f\n", floatVal);
-    printf("You entered double: %lf\n", doubleVal);
-    printf("You entered long double: %Lf\n", longDoubleVal);
+    printf("float = %f\n", a);
+    printf("double = %lf\n", b);
+    printf("long double = %Lf\n", c);
 
     return 0;
 }
+
+
