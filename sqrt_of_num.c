@@ -19,7 +19,7 @@ int main()
 #include <stdio.h>
 #include <math.h>
 int main() {
-    // Write C code here
+    
     int i;
     printf("enter value of i: ");
     scanf("%d", &i);
