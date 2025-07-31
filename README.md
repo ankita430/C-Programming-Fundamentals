@@ -23,7 +23,7 @@ Each file demonstrates a fundamental concept in C — ideal for freshers, studen
 
 | Sr | Program Description |
 |----|---------------------|
-| 1  | [Hello World Program](H.c) |
+| 1  | [Hello World Program] |
 | 2  | [Basic Input and Output](Basic\ input\ and\ output\ in\ C.c) |
 | 3  | [Input/Output of All Primitive Data Types](C\ program\ to\ demonstrate\ input\ output\ of\ primitive\ data\ types.c) |
 | 4  | [Sum of Two Numbers](C\ program\ to\ sum\ two\ numbers.c) |
