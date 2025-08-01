@@ -14,4 +14,3 @@ int main()
     printf("Total digits: %d", count);
     return 0;
 }
-
