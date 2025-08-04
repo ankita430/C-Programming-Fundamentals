@@ -1,17 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int b, e;
-    long long p = 1;
-    int i;
-    printf("Enter base: ");
-    scanf("%d", &b);
-    printf("Enter exponent: ");
-    scanf("%d", &e);
-    for(i=1; i<=e; i++)
+    int num, power;
+    long long int result = 1;
+    printf("Enter the base: ");
+    scanf("%d", &num);
+    printf("Enter the exponent: ");
+    scanf("%d", &power);
+    for (int i = 1; i <= power; i++)
     {
-        p = p * b;
+        result = result * num;
     }
-        printf("%d ^ %d = %lld", b, e, p);
-        return 0;
+    printf("%d^%d = %lld", num, power, result);
+    return 0;
 }
